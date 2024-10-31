@@ -27,7 +27,7 @@ class FirstFragment : Fragment() {
             findNavController().navigate(
                 R.id.action_firstFragment_to_secondFragment,
                 Bundle().apply {
-                    putString("EXTRA", "Fragment 2 recebendo dados enviados")
+                    putString("EXTRA", "Fragment 2")
                 }
 
             )
