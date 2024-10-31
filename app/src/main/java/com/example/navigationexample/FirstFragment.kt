@@ -29,6 +29,7 @@ class FirstFragment : Fragment() {
                 Bundle().apply {
                     putString("EXTRA", "Fragment 2 recebendo dados enviados")
                 }
+
             )
         }
 
