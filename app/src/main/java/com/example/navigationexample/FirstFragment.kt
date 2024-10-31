@@ -24,9 +24,12 @@ class FirstFragment : Fragment() {
 
         //Ação de clique para navegação para tela 2 e enviando dados entre telas
         view.findViewById<Button>(R.id.buttonFragment2).setOnClickListener {
-            findNavController().navigate(R.id.action_firstFragment_to_secondFragment, Bundle().apply {
-                putString("EXTRA", "Fragment 2 recebendo dados enviados")
-            })
+            findNavController().navigate(
+                R.id.action_firstFragment_to_secondFragment,
+                Bundle().apply {
+                    putString("EXTRA", "Fragment 2 recebendo dados enviados")
+                }
+            )
         }
 
         return view

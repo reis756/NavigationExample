@@ -19,7 +19,7 @@ class SecondActivity : AppCompatActivity() {
             insets
         }
 
-        val number = intent.getIntExtra("number_extra", 0)
+        val number = intent.getStringExtra("number_extra")
         findViewById<TextView>(R.id.txtNumber).text = number.toString()
     }
 }

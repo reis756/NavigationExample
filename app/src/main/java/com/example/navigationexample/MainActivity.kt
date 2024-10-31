@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val number = 20
+        val number = "31/10/2024"
 
         val button: Button = findViewById(R.id.buttonSecond)
 
@@ -36,5 +36,6 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
+
     }
 }
